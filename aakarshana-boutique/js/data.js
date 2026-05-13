@@ -1,4 +1,4 @@
-// Aakarshana Boutique - Product Catalogue Data
+// Raaha Boutique - Product Catalogue Data
 const PRODUCTS = [
   // ===== WOMEN'S SAREES =====
   { id:1, name:"Royal Banarasi Silk Saree", category:"sarees", gender:"women", price:18999, originalPrice:24999, description:"Exquisite handwoven Banarasi silk saree with intricate zari work and traditional motifs. Perfect for weddings.", sizes:["Free Size"], colors:["Red & Gold","Navy & Silver","Maroon & Gold"], stock:"in-stock", badge:"Bestseller", gradient:["#8B1A1A","#DAA520"], fabric:"Pure Banarasi Silk", occasion:"Wedding" },

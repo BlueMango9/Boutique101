@@ -5,7 +5,7 @@ function renderAuth() {
     <div class="auth-visual">
       <div class="auth-visual__bg" style="background:linear-gradient(135deg,#C9A96E 0%,#8B1A1A 50%,#1B1464 100%)"></div>
       <div class="auth-visual__content">
-        <div class="auth-visual__logo">Aakarshana</div>
+        <div class="auth-visual__logo">Raaha</div>
         <p class="auth-visual__text">Your premier destination for premium Indian fashion and timeless elegance.</p>
         <div class="auth-visual__quote">"Elegance is the only beauty that never fades."</div>
       </div>
@@ -77,7 +77,7 @@ function switchAuthTab(tab) {
   document.getElementById('tab-signup').classList.toggle('active', tab==='signup');
 }
 function handleLogin()  { const e=document.getElementById('login-email')?.value; if(!e){showToast('Please enter email','error');return;} localStorage.setItem('ab_user',JSON.stringify({email:e,name:e.split('@')[0]})); showToast('Signed in successfully ✦','success'); navigate('/'); }
-function handleSignup() { const e=document.getElementById('signup-email')?.value,f=document.getElementById('signup-fname')?.value; if(!e||!f){showToast('Please fill required fields','error');return;} localStorage.setItem('ab_user',JSON.stringify({email:e,name:f})); showToast('Account created! Welcome to Aakarshana ✦','success'); navigate('/'); }
+function handleSignup() { const e=document.getElementById('signup-email')?.value,f=document.getElementById('signup-fname')?.value; if(!e||!f){showToast('Please fill required fields','error');return;} localStorage.setItem('ab_user',JSON.stringify({email:e,name:f})); showToast('Account created! Welcome to Raaha ✦','success'); navigate('/'); }
 
 // ══ CHECKOUT PAGE ════════════════════════════════════════
 function renderCheckout() {
@@ -240,7 +240,7 @@ function renderOrderSuccess() {
     <div style="max-width:480px">
       <div style="font-size:4rem;margin-bottom:1.5rem">✦</div>
       <h1 style="font-family:var(--serif);font-size:2.5rem;margin-bottom:1rem">Order Placed!</h1>
-      <p style="color:var(--charcoal-soft);line-height:1.8;margin-bottom:.5rem">Thank you for shopping with <strong>Aakarshana Boutique</strong>. Your order has been received and is being prepared with care.</p>
+      <p style="color:var(--charcoal-soft);line-height:1.8;margin-bottom:.5rem">Thank you for shopping with <strong>Raaha Boutique</strong>. Your order has been received and is being prepared with care.</p>
       <p style="color:var(--charcoal-soft);font-size:.875rem;margin-bottom:2rem">A confirmation email will be sent to you shortly.</p>
       <div style="background:var(--ivory);border-radius:var(--radius-md);padding:1.5rem;margin-bottom:2rem">
         <div style="font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem">Order ID</div>

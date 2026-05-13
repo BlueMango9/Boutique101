@@ -17,11 +17,11 @@ function renderAbout() {
         </div>
         <div>
           <p class="brand-story__kicker">Who We Are</p>
-          <h2 class="display-md">Aakarshana Boutique</h2>
+          <h2 class="display-md">Raaha Boutique</h2>
           <div class="divider-gold" style="margin:1rem 0 1.5rem"></div>
-          <p class="brand-story__text">Founded in 2009, Aakarshana Boutique was born from a singular vision — to create a space where India's extraordinary textile artistry meets the modern woman and man. Our name, "Aakarshana," means attraction or allure in Sanskrit, and it captures exactly what we aspire to create: clothing that draws the world's attention to the unmatched craftsmanship of Indian artisans.</p>
+          <p class="brand-story__text">Founded in 2009, Raaha Boutique was born from a singular vision — to create a space where India's extraordinary textile artistry meets the modern woman and man. Our name, "Raaha," means attraction or allure in Sanskrit, and it captures exactly what we aspire to create: clothing that draws the world's attention to the unmatched craftsmanship of Indian artisans.</p>
           <p class="brand-story__text">We work with over 25 master weavers and craftsmen from Varanasi, Kanchipuram, Surat, Kolkata, and Lucknow — ensuring authenticity, fair trade, and the continuation of centuries-old traditions.</p>
-          <p class="brand-story__text">Every garment you purchase from Aakarshana is not just clothing — it is a living piece of cultural heritage, crafted by skilled hands and offered to you with love.</p>
+          <p class="brand-story__text">Every garment you purchase from Raaha is not just clothing — it is a living piece of cultural heritage, crafted by skilled hands and offered to you with love.</p>
         </div>
       </div>
     </div>
@@ -98,11 +98,11 @@ function renderContact() {
           <h2 class="display-sm" style="margin:.5rem 0 2rem">Our Details</h2>
           <div class="contact-info-item">
             <div class="contact-info-icon">📍</div>
-            <div class="contact-info-text"><h4>Store Address</h4><p>Aakarshana Boutique<br>12, Fashion Street, Jubilee Hills<br>Hyderabad, Telangana – 500033<br>India</p></div>
+            <div class="contact-info-text"><h4>Store Address</h4><p>Raaha Boutique<br>12, Fashion Street, Jubilee Hills<br>Hyderabad, Telangana – 500033<br>India</p></div>
           </div>
           <div class="contact-info-item">
             <div class="contact-info-icon">📧</div>
-            <div class="contact-info-text"><h4>Email Us</h4><p>General: hello@aakarshana.in<br>Orders: orders@aakarshana.in<br>Wholesale: wholesale@aakarshana.in</p></div>
+            <div class="contact-info-text"><h4>Email Us</h4><p>General: hello@Raaha.in<br>Orders: orders@Raaha.in<br>Wholesale: wholesale@Raaha.in</p></div>
           </div>
           <div class="contact-info-item">
             <div class="contact-info-icon">📞</div>
@@ -113,7 +113,7 @@ function renderContact() {
             <div class="contact-info-text">
               <h4>Follow Us</h4>
               <div style="display:flex;gap:.75rem;margin-top:.5rem">
-                ${[['Instagram','@aakarshana.boutique'],['Facebook','Aakarshana Boutique'],['Pinterest','@aakarshana'],['YouTube','Aakarshana Boutique']].map(([s,h])=>`<div style="font-size:.8rem"><strong>${s}</strong><br><span style="color:var(--gold)">${h}</span></div>`).join('')}
+                ${[['Instagram','@Raaha.boutique'],['Facebook','Raaha Boutique'],['Pinterest','@Raaha'],['YouTube','Raaha Boutique']].map(([s,h])=>`<div style="font-size:.8rem"><strong>${s}</strong><br><span style="color:var(--gold)">${h}</span></div>`).join('')}
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ function renderTerms() {
     <h1 class="display-md" style="margin:.5rem 0 2rem">Terms & Conditions</h1>
     <div class="divider-gold" style="margin:0 0 2rem"></div>
     <h2>1. Acceptance of Terms</h2>
-    <p>By accessing and using the Aakarshana Boutique website and services, you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree, please do not use our services.</p>
+    <p>By accessing and using the Raaha Boutique website and services, you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree, please do not use our services.</p>
     <h2>2. Products and Pricing</h2>
     <p>All prices are listed in Indian Rupees (INR) and are inclusive of applicable taxes unless stated otherwise. We reserve the right to modify prices without prior notice. Product images are for representative purposes — actual colours may vary slightly due to photography and display settings.</p>
     <h2>3. Orders and Payment</h2>
@@ -182,7 +182,7 @@ function renderTerms() {
     <h2>5. Returns and Exchanges</h2>
     <p>We accept returns within 14 days of delivery for unworn, unwashed items in original packaging with tags intact. Customized or bespoke items are not eligible for return. Refunds are processed within 7–10 business days.</p>
     <h2>6. Intellectual Property</h2>
-    <p>All content on this website — including images, text, logos, and designs — is the intellectual property of Aakarshana Boutique and is protected by Indian and international copyright laws.</p>
+    <p>All content on this website — including images, text, logos, and designs — is the intellectual property of Raaha Boutique and is protected by Indian and international copyright laws.</p>
     <h2>7. Governing Law</h2>
     <p>These terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Hyderabad, Telangana.</p>
     <p class="legal-last-updated">Last updated: 1 January 2025</p>
@@ -194,7 +194,7 @@ function renderPrivacy() {
     <span class="label-caps">Legal</span>
     <h1 class="display-md" style="margin:.5rem 0 2rem">Privacy Policy</h1>
     <div class="divider-gold" style="margin:0 0 2rem"></div>
-    <p>At Aakarshana Boutique, we are committed to protecting your personal information and your right to privacy.</p>
+    <p>At Raaha Boutique, we are committed to protecting your personal information and your right to privacy.</p>
     <h2>1. Information We Collect</h2>
     <p>We collect information you provide directly to us, such as when you create an account, place an order, or contact us. This includes your name, email address, phone number, postal address, and payment information (processed securely by our payment partners).</p>
     <h2>2. How We Use Your Information</h2>
@@ -210,9 +210,9 @@ function renderPrivacy() {
     <h2>4. Data Security</h2>
     <p>We implement industry-standard security measures including SSL encryption, secure servers, and regular security audits to protect your personal information.</p>
     <h2>5. Your Rights</h2>
-    <p>You have the right to access, correct, or delete your personal data. To exercise these rights, contact us at privacy@aakarshana.in.</p>
+    <p>You have the right to access, correct, or delete your personal data. To exercise these rights, contact us at privacy@Raaha.in.</p>
     <h2>6. Contact</h2>
-    <p>For privacy-related queries, email us at: <strong>privacy@aakarshana.in</strong></p>
+    <p>For privacy-related queries, email us at: <strong>privacy@Raaha.in</strong></p>
     <p class="legal-last-updated">Last updated: 1 January 2025</p>
   </div></div></div>`;
 }
@@ -222,7 +222,7 @@ function renderCookies() {
     <span class="label-caps">Legal</span>
     <h1 class="display-md" style="margin:.5rem 0 2rem">Cookie Policy</h1>
     <div class="divider-gold" style="margin:0 0 2rem"></div>
-    <p>This Cookie Policy explains how Aakarshana Boutique uses cookies and similar tracking technologies on our website.</p>
+    <p>This Cookie Policy explains how Raaha Boutique uses cookies and similar tracking technologies on our website.</p>
     <h2>What Are Cookies?</h2>
     <p>Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work efficiently and provide information to website owners.</p>
     <h2>Types of Cookies We Use</h2>
@@ -245,13 +245,13 @@ function renderCorporate() {
     <div class="divider-gold" style="margin:0 0 2rem"></div>
     <div style="background:var(--ivory);border-radius:var(--radius-md);padding:2rem;margin-bottom:2rem">
       <table style="width:100%;border-collapse:collapse">
-        ${[['Legal Entity Name','Aakarshana Boutique Private Limited'],['CIN','U52100TG2009PTC065432'],['Registered Office','12, Fashion Street, Jubilee Hills, Hyderabad – 500033'],['State of Incorporation','Telangana, India'],['GST Number','36AABCA1234M1Z5'],['PAN Number','AABCA1234M'],['Year of Incorporation','2009'],['Nature of Business','Retail of Designer Clothing & Textiles (NIC Code: 4771)']].map(([k,v])=>`<tr style="border-bottom:1px solid var(--ivory-dark)"><td style="padding:.75rem 1rem .75rem 0;color:var(--charcoal-soft);font-size:.875rem;width:45%">${k}</td><td style="padding:.75rem 0;font-weight:500;font-size:.875rem">${v}</td></tr>`).join('')}
+        ${[['Legal Entity Name','Raaha Boutique Private Limited'],['CIN','U52100TG2009PTC065432'],['Registered Office','12, Fashion Street, Jubilee Hills, Hyderabad – 500033'],['State of Incorporation','Telangana, India'],['GST Number','36AABCA1234M1Z5'],['PAN Number','AABCA1234M'],['Year of Incorporation','2009'],['Nature of Business','Retail of Designer Clothing & Textiles (NIC Code: 4771)']].map(([k,v])=>`<tr style="border-bottom:1px solid var(--ivory-dark)"><td style="padding:.75rem 1rem .75rem 0;color:var(--charcoal-soft);font-size:.875rem;width:45%">${k}</td><td style="padding:.75rem 0;font-weight:500;font-size:.875rem">${v}</td></tr>`).join('')}
       </table>
     </div>
     <h2>Registered Address</h2>
-    <p>Aakarshana Boutique Private Limited<br>12, Fashion Street, Jubilee Hills<br>Hyderabad, Telangana – 500033<br>India</p>
+    <p>Raaha Boutique Private Limited<br>12, Fashion Street, Jubilee Hills<br>Hyderabad, Telangana – 500033<br>India</p>
     <h2>Customer Grievance</h2>
-    <p>For any grievances, please contact our Grievance Officer:<br><strong>Ms. Kavitha Rao</strong><br>Email: grievance@aakarshana.in<br>Phone: +91 40 1234 5678<br>Response time: Within 48 business hours</p>
+    <p>For any grievances, please contact our Grievance Officer:<br><strong>Ms. Kavitha Rao</strong><br>Email: grievance@Raaha.in<br>Phone: +91 40 1234 5678<br>Response time: Within 48 business hours</p>
     <p class="legal-last-updated">Last updated: 1 January 2025</p>
   </div></div></div>`;
 }

@@ -7,7 +7,7 @@ function renderHome() {
     { label:'Men\'s Heritage Line', title:'Regal\nElegance Redefined', sub:'Premium sherwanis, kurtas and Bandhgala suits for the discerning gentleman.', cta:'Shop Men\'s', link:'/men', bg:'assets/images/hero-men.png', gradient:'linear-gradient(110deg,rgba(44,44,44,.6) 0%,rgba(44,44,44,.1) 60%,transparent 100%)' },
     { label:'Artisan Craftsmanship', title:'The Art of\nIndian Textiles', sub:'Every thread tells a story. From Banarasi silk to Kanjeevaram — experience luxury woven by hand.', cta:'View Catalogue', link:'/women', bg:'assets/images/hero-collection.png', gradient:'linear-gradient(110deg,rgba(20,10,5,.7) 0%,rgba(20,10,5,.2) 60%,transparent 100%)' },
     { label:'Bridal Collection', title:'Your Perfect\nBridal Story', sub:'Bespoke lehengas, sarees and gowns to make your most special day unforgettable.', cta:'Bridal Wear', link:'/women', bg:'assets/images/hero-women.png', gradient:'linear-gradient(135deg,rgba(100,20,20,.65) 0%,rgba(44,44,44,.1) 60%,transparent 100%)' },
-    { label:'Limited Edition', title:'Exclusive\nDesigner Pieces', sub:'Handpicked curations from master craftsmen across India — available only at Aakarshana.', cta:'Shop Now', link:'/women', bg:'assets/images/hero-men.png', gradient:'linear-gradient(110deg,rgba(10,20,44,.65) 0%,rgba(10,20,44,.1) 60%,transparent 100%)' },
+    { label:'Limited Edition', title:'Exclusive\nDesigner Pieces', sub:'Handpicked curations from master craftsmen across India — available only at Raaha.', cta:'Shop Now', link:'/women', bg:'assets/images/hero-men.png', gradient:'linear-gradient(110deg,rgba(10,20,44,.65) 0%,rgba(10,20,44,.1) 60%,transparent 100%)' },
   ];
 
   const newArrivals = PRODUCTS.filter(p => p.badge === 'New' || p.badge === 'Trending').slice(0,8);
@@ -58,7 +58,7 @@ function renderHome() {
         <span class="label-caps">Curated For You</span>
         <h2 class="display-md">Our Collections</h2>
         <div class="divider-gold"></div>
-        <p>Every piece at Aakarshana is handpicked for its craftsmanship, quality, and timeless appeal.</p>
+        <p>Every piece at Raaha is handpicked for its craftsmanship, quality, and timeless appeal.</p>
       </div>
       <div class="collections-grid reveal">
         <div class="collection-card" onclick="navigate('/women?cat=sarees')">
@@ -136,16 +136,16 @@ function renderHome() {
     <div class="container">
       <div class="brand-story reveal">
         <div class="brand-story__image">
-          <div style="width:100%;height:100%;background:linear-gradient(135deg,#C9A96E 0%,#8B1A1A 50%,#1B1464 100%);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:3rem;color:rgba(255,255,255,.4);letter-spacing:.1em">Aakarshana</div>
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#C9A96E 0%,#8B1A1A 50%,#1B1464 100%);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:3rem;color:rgba(255,255,255,.4);letter-spacing:.1em">Raaha</div>
         </div>
         <div>
           <p class="brand-story__kicker">Our Heritage</p>
           <h2 class="brand-story__title display-md">Craftsmanship That Tells a Story</h2>
           <div class="divider-gold" style="margin:0 0 1.5rem"></div>
-          <p class="brand-story__text">Aakarshana Boutique was born from a deep reverence for India's extraordinary textile heritage. We believe that every weave, every thread, and every embellishment carries the soul of the artisan who crafted it.</p>
+          <p class="brand-story__text">Raaha Boutique was born from a deep reverence for India's extraordinary textile heritage. We believe that every weave, every thread, and every embellishment carries the soul of the artisan who crafted it.</p>
           <p class="brand-story__text">We work directly with master craftsmen across Varanasi, Kanchipuram, Surat, and Lucknow — ensuring that every piece in our collection is authentic, fairly traded, and crafted to last lifetimes.</p>
           <button class="btn btn-outline-gold" onclick="navigate('/about')">Read Our Story →</button>
-          <div class="brand-story__sign">— Aakarshana</div>
+          <div class="brand-story__sign">— Raaha</div>
         </div>
       </div>
     </div>
@@ -205,7 +205,7 @@ function renderCatalogue(gender, urlParams) {
   return `
   <div class="catalogue-hero">
     <div class="container">
-      <span class="label-caps">Aakarshana Boutique</span>
+      <span class="label-caps">Raaha Boutique</span>
       <h1 class="display-md" style="margin-top:.5rem">${genderLabel} Collection</h1>
       <p>Discover ${products.length}+ handpicked designs crafted for every occasion</p>
       <div class="filter-tabs" style="justify-content:center">

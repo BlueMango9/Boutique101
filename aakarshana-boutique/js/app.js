@@ -145,10 +145,10 @@ function buildNavbar() {
   return `
   <nav id="navbar">
     <div class="nav-inner">
-      <a class="nav-logo" href="#" onclick="navigate('/');return false" aria-label="Aakarshana Boutique Home">
+      <a class="nav-logo" href="#" onclick="navigate('/');return false" aria-label="Raaha Boutique Home">
         <div class="nav-logo__mark">A</div>
         <div class="nav-logo__text">
-          <span class="nav-logo__name">Aakarshana</span>
+          <span class="nav-logo__name">Raaha</span>
           <span class="nav-logo__tagline">Boutique</span>
         </div>
       </a>
@@ -247,7 +247,7 @@ function buildFooter() {
           <div class="nav-logo" style="margin-bottom:1rem">
             <div class="nav-logo__mark">A</div>
             <div class="nav-logo__text">
-              <span class="nav-logo__name">Aakarshana</span>
+              <span class="nav-logo__name">Raaha</span>
               <span class="nav-logo__tagline">Boutique</span>
             </div>
           </div>
@@ -285,13 +285,13 @@ function buildFooter() {
         <div class="footer-col">
           <h5>Contact</h5>
           <div class="footer-contact-item"><span class="icon">📍</span><span>12, Fashion Street, Jubilee Hills, Hyderabad – 500033</span></div>
-          <div class="footer-contact-item"><span class="icon">📧</span><span>hello@aakarshana.in</span></div>
+          <div class="footer-contact-item"><span class="icon">📧</span><span>hello@Raaha.in</span></div>
           <div class="footer-contact-item"><span class="icon">📞</span><span>+91 40 1234 5678</span></div>
           <div class="footer-contact-item"><span class="icon">🕐</span><span>Mon–Sat: 10 AM – 7:30 PM</span></div>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2025 Aakarshana Boutique Pvt. Ltd. All rights reserved.</span>
+        <span>© 2025 Raaha Boutique Pvt. Ltd. All rights reserved.</span>
         <div class="footer-legal">
           <a href="#" onclick="navigate('/terms');return false">Terms & Conditions</a>
           <a href="#" onclick="navigate('/privacy');return false">Privacy Policy</a>
@@ -353,7 +353,7 @@ function closeMobileNav() {
 function subscribeNewsletter() {
   const e = document.getElementById('nl-email')?.value;
   if (!e || !e.includes('@')) { showToast('Please enter a valid email','error'); return; }
-  showToast('Subscribed! Welcome to the Aakarshana family ✦','success');
+  showToast('Subscribed! Welcome to the Raaha family ✦','success');
   const inp = document.getElementById('nl-email');
   if (inp) inp.value = '';
 }
